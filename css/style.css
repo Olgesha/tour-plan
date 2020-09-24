@@ -533,6 +533,8 @@ template {
 }
 
 .hotel-info__description {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   margin: 5px 0;
 }
 
@@ -692,11 +694,14 @@ template {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 320px;
     width: 92%;
   }
   .logo {
     width: 99px;
+  }
+  .hotel-info__description {
+    font-size: 12px;
+    line-height: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
