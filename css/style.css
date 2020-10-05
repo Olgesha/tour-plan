@@ -611,6 +611,13 @@ template {
   z-index: 10;
 }
 
+.hotel-slider .swiper-slide__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .hotel-slider__button {
   position: absolute;
   top: 50%;
@@ -1210,8 +1217,8 @@ template {
             order: -1;
     margin-left: 0;
   }
-  .slider {
-    height: 250px;
+  .hotel-slider {
+    min-height: 400px;
   }
   .hotel-right {
     -webkit-box-orient: vertical;
@@ -1271,10 +1278,13 @@ template {
     font-size: 12px;
     line-height: 15px;
   }
-  .slider {
+  .hotel__slider {
     height: 179px;
   }
   .hotel-slider {
+    margin-bottom: 20px;
+  }
+  .booking {
     margin-bottom: 20px;
   }
   .newsletter-wrapper {
